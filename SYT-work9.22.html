@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title>模拟取款</title>
+	</head>
+	<body>
+		<div id="one"></div>
+			<button id="btn">取款<tton>
+		<script type="text/javascript">
+			var one = document.getElementById('one')
+			var two = document.getElementById('two');
+	        var a = Number(prompt('请输入您的卡号'));
+	        var b = Number(prompt('请输入您的密码'));
+	        if(a=='123456789'&&b=='123456'){
+	        	one.innerHTML = '您的余额为1900元'
+	        	btn.onclick = function (){
+				var money = Number(prompt('请输入您要取的金额'));
+				if(z<=1900){
+                        alert('余额为：'+(1900-money));
+                }else{
+                	alert('您的余额不足')
+                }
+			}
+	        }else{
+	        	alert('您输的账号或密码不正确');
+	        }
+			
+		
+		</script>
+	</body>
+<html>
